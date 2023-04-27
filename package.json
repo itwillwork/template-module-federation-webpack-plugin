@@ -1,0 +1,43 @@
+{
+  "name": "template-module-federation-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf dist && rm -rf types",
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "prepublish": "npm run build"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "files": [
+    "types/*.d.ts",
+    "dist/*.js"
+  ],
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itwillwork/template-module-federation-webpack-plugin.git"
+  },
+  "homepage": "https://github.com/itwillwork/template-module-federation-webpack-plugin",
+  "keywords": [
+    "template-module-federation-webpack-plugin",
+    "module-federation",
+    "template",
+    "webpack",
+    "plugin",
+    "module",
+    "federation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/webpack": "^5.28.1",
+    "typescript": "^5.0.4"
+  }
+}
