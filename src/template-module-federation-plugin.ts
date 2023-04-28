@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+import fs from 'fs';
 import ejs from 'ejs';
 import type {Compiler} from 'webpack';
 import type { PluginOptionsT } from './models';

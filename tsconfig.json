@@ -2,16 +2,11 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",
-    "lib": [
-      "ESNext"
-    ],
     "types": ["node"],
     "module": "commonjs",
     "target": "ES5",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
     "declarationDir": "types",
     "declaration": true
   },
